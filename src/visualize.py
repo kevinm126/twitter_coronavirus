@@ -27,32 +27,22 @@ if args.percent:
         counts[args.key][k] /= counts['_all'][k]
 
 # print the count values
-items = dict(sorted(counts[args.key].items(), key=lambda item: (item[1],item[0]), reverse=True))
+first_dict = dict(sorted(counts[args.key].items(), key=lambda item: (item[1],item[0]), reverse=True))
 #for k,v in items:
  #   print(k,':',v)
-
-top_ten_keys = dict(reversed(sorted(items.items(), key = lambda x: x[1], reverse=True)[:10])) 
-
-keys = []
-values = []
-for key,value in top_ten_keys.items():
-    keys.append(key)
-    values.append(value)
-
-print("Top 10" + str(top_ten_keys))
-print(f"keys = {keys}")
-print(f"values= {values}")
-
-plt.bar(top_ten_keys.keys(),top_ten_keys.values(), color = 'blue', width =0.6)
-
-plt.show(block=True)
+top_ten_dict = dict(reversed(sorted(first_dict.items(), key = lambda x: x[1], reverse=True)[:10]))
+plt.figure(figsize = (7,4.8) )
+plt.bar(range(len(top_ten_dict)), top_ten_dict.values(), align='center', color = 'lightsteelblue')
+plt.xticks(range(len(top_ten_dict)), top_ten_dict.keys())
 
 if args.input_path == "reduced.lang":
     plt.xlabel("Language")
-    plt.ylabel("Tweets with" + args.key)
+    plt.ylabel("Number of Tweets")
+    plt.title(f"Number of tweets using \"{args.key}\" by Language")
 else:
     plt.xlabel("Country")
-    plt.ylabel("Tweets with" + args.key)
+    plt.ylabel("Number of Tweets")
+    plt.title(f"Number of tweets using \"{args.key}\" by Country")
 
 
-plt.savefig(args.input_path + args.key + '.png')
+plt.savefig(args.input_path + '.' + args.key + '.png', pad_inches = 0)

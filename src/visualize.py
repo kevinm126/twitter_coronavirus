@@ -41,8 +41,9 @@ for key,value in top_ten_keys.items():
 
 print("Top 10" + str(top_ten_keys))
 print(f"keys = {keys}")
+print(f"values= {values}")
 
-plt.bar(keys,values, color = 'blue', width =0.4)
+plt.bar(keys,sorted(values), color = 'blue', width =0.4)
 
 plt.show(block=True)
 

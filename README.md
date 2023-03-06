@@ -163,4 +163,4 @@ This explanation should be suitable for a future employer to look at while they 
 ## Results
 Below and located in the `charts` directory are 4 bar charts that measure how many times a certain hashtag been used. For each hashtag there is a graph that compares the country the tweet was sent from to the number of times the hashtag was used and also a graph that compares the language the tweet was written in to the number of times the hashtag was used for each language.
 
-![#coronvirus use by country](reduced.country.#coronavirus.png ) ![#coronvirus use by language](reduced.lang.#coronavirus.png)
+![#coronvirus use by country](charts/reduced.country.#coronavirus.png ) ![#coronvirus use by language](charts/reduced.lang.#coronavirus.png)

@@ -161,6 +161,12 @@ This explanation should be suitable for a future employer to look at while they 
 (And you should tell them about this in your interviews!)
 
 ## Results
-Below and located in the `charts` directory are 4 bar charts that measure how many times a certain hashtag been used. For each hashtag there is a graph that compares the country the tweet was sent from to the number of times the hashtag was used and also a graph that compares the language the tweet was written in to the number of times the hashtag was used for each language.
+Below are 4 bar charts that measure how many times a certain hashtag been used. For each hashtag there is a graph that compares the country the tweet was sent from to the number of times the hashtag was used and also a graph that compares the language the tweet was written in to the number of times the hashtag was used for each language.
 
-![#coronvirus use by country](charts/reduced.country.#coronavirus.png ) ![#coronvirus use by language](charts/reduced.lang.#coronavirus.png)
+![#coronavirus use by country](https://github.com/kevinm126/twitter_coronavirus/blob/master/charts/reduced.country.%23coronavirus.png)!![##코로나바이러스 use by country](https://github.com/kevinm126/twitter_coronavirus/blob/master/charts/reduced.country.%23%EC%BD%94%EB%A1%9C%EB%82%98%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4.png)
+
+We can compare the two charts with respect to their differences in country where the tweets were sent. `#coronavirus` is used most often in english speaking countries while `#코로나바이러스`, the hashtag corresponding to the Korean word for covid, is used almost exclusively in Korea.
+
+![#coronavirus use by language](https://github.com/kevinm126/twitter_coronavirus/blob/master/charts/reduced.lang.%23coronavirus.png)![#코로나바이러스 use by language](https://github.com/kevinm126/twitter_coronavirus/blob/master/charts/reduced.lang.%23%EC%BD%94%EB%A1%9C%EB%82%98%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4.png)
+
+similarly we see that most of the tweets containing `#코로나바이러스` were written in Korean while #coronavirus is used much more globally but most of all in the United States. 

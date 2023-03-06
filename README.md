@@ -169,4 +169,4 @@ We can compare the two charts with respect to their differences in country where
 
 ![#coronavirus use by language](https://github.com/kevinm126/twitter_coronavirus/blob/master/charts/reduced.lang.%23coronavirus.png)![#코로나바이러스 use by language](https://github.com/kevinm126/twitter_coronavirus/blob/master/charts/reduced.lang.%23%EC%BD%94%EB%A1%9C%EB%82%98%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4.png)
 
-similarly we see that most of the tweets containing `#코로나바이러스` were written in Korean while #coronavirus is used much more globally but most of all in the United States. 
+similarly we see that most of the tweets containing `#코로나바이러스` were written in Korean while `#coronavirus` is used much more globally but most of all in the United States. 

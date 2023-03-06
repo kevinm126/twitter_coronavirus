@@ -43,7 +43,7 @@ print("Top 10" + str(top_ten_keys))
 print(f"keys = {keys}")
 print(f"values= {values}")
 
-plt.bar(range(len(keys)),sorted(values), color = 'blue', width =0.4)
+plt.bar(top_ten_keys.keys(),top_ten_keys.values(), color = 'blue', width =0.6)
 
 plt.show(block=True)
 

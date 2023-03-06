@@ -160,15 +160,7 @@ You must edit the `README.md` file to provide a brief explanation of your result
 This explanation should be suitable for a future employer to look at while they are interviewing you to get a rough idea of what you accomplished.
 (And you should tell them about this in your interviews!)
 
-## Submission
+## Results
+Below and located in the `charts` directory are 4 bar charts that measure how many times a certain hashtag been used. For each hashtag there is a graph that compares the country the tweet was sent from to the number of times the hashtag was used and also a graph that compares the language the tweet was written in to the number of times the hashtag was used for each language.
 
-Upload a link to you github repository on sakai.
-I will look at your code and visualization to determine your grade.
-
-Notice that we are not using CI to grade this assignment.
-There's two reasons:
-
-1. You can get slightly different numbers depending on some of the design choices you make in your code.
-    For example, should the term `corona` count tweets that contain `coronavirus` as well as tweets that contain just `corona`?
-    These are relatively insignificant decisions.
-    I'm more concerned with your ability to write a shell script and use `nohup`, `&`, and other process control tools effectively.
+![#coronvirus use by country](reduced.country.#coronavirus.png ) ![#coronvirus use by language](reduced.lang.#coronavirus.png)
